@@ -1,0 +1,50 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://127.0.0.1:5432/test
+    username:
+    password:
+  kafka:
+    bootstrap-servers:
+    consumer:
+      auto-commit-interval: 5S
+      auto-offset-reset: earliest
+      enable-auto-commit: false
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      listener:
+        concurrency: 5
+        ack-mode: manual_immediate
+        missing-topics-fatal: false
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+#?????
+threadPool:
+  core-pool-size: 20
+  max-pool-size: 60
+  queue-capacity: 1000
+  keep-alive-seconds: 300
+
+#mybaits-plus??????????mapper.xml?type ???
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  typeAliasesPackage: com.blk.chain.model.entity
+  typeEnumsPackage: com.blk.chain.common.enums;com.blk.chain.common.enums.*;
+  global-config:
+    db-config:
+      #????
+      id-type: ASSIGN_ID
+      #??????
+      logic-delete-value: Y
+      logic-not-delete-value: N
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: true
+    #??sql??,???
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

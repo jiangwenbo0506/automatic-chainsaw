@@ -1,0 +1,34 @@
+2024-11-18 09:18:10 - 开始同步电流数据------>>>>>>>>
+2024-11-18 09:18:10 - 同步电流实时数据成功！
+2024-11-18 09:29:04 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-18 09:29:04 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-18 09:29:04 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-18 09:29:04 - Shutting down ExecutorService
+2024-11-18 09:29:04 - [Consumer clientId=consumer-ygpt-zhdh-4, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-18 09:29:04 - Shutting down ExecutorService
+2024-11-18 09:29:04 - Shutting down ExecutorService
+2024-11-18 09:29:04 - Shutting down ExecutorService
+2024-11-18 09:29:04 - Metrics scheduler closed
+2024-11-18 09:29:04 - Metrics scheduler closed
+2024-11-18 09:29:04 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-18 09:29:04 - Metrics scheduler closed
+2024-11-18 09:29:04 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-18 09:29:04 - Metrics scheduler closed
+2024-11-18 09:29:04 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-18 09:29:04 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-18 09:29:04 - Metrics reporters closed
+2024-11-18 09:29:04 - Metrics reporters closed
+2024-11-18 09:29:04 - Metrics reporters closed
+2024-11-18 09:29:04 - Metrics reporters closed
+2024-11-18 09:29:04 - App info kafka.consumer for consumer-ygpt-zhdh-2 unregistered
+2024-11-18 09:29:04 - App info kafka.consumer for consumer-ygpt-zhdh-3 unregistered
+2024-11-18 09:29:04 - ygpt-zhdh: Consumer stopped
+2024-11-18 09:29:04 - App info kafka.consumer for consumer-ygpt-zhdh-4 unregistered
+2024-11-18 09:29:04 - ygpt-zhdh: Consumer stopped
+2024-11-18 09:29:04 - ygpt-zhdh: Consumer stopped
+2024-11-18 09:29:04 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-18 09:29:04 - ygpt-zhdh: Consumer stopped
+2024-11-18 09:29:04 - Shutting down ExecutorService 'taskScheduler'
+2024-11-18 09:29:04 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-18 09:29:04 - HikariPool-1 - Shutdown initiated...
+2024-11-18 09:29:04 - HikariPool-1 - Shutdown completed.

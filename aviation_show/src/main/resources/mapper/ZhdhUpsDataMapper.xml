@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blk.mapper.UpsDataMapper">
+    <resultMap id="BaseResultMap" type="com.blk.model.entity.UpsData">
+        <result property="tgIa" column="tg_ia" jdbcType="VARCHAR"/>
+        <result property="tgIb" column="tg_ib" jdbcType="VARCHAR"/>
+        <result property="tgIc" column="tg_ic" jdbcType="VARCHAR"/>
+        <result property="tgTemp01" column="tg_temp01" jdbcType="VARCHAR"/>
+        <result property="tgTemp02" column="tg_temp02" jdbcType="VARCHAR"/>
+        <result property="tgTemp03" column="tg_temp03" jdbcType="VARCHAR"/>
+        <result property="gatewayIdentifier" column="gateway_identifier" jdbcType="VARCHAR"/>
+        <result property="gatewayId" column="gateway_id" jdbcType="VARCHAR"/>
+        <result property="deviceIdentifier" column="device_identifier" jdbcType="VARCHAR"/>
+        <result property="deviceId" column="device_id" jdbcType="VARCHAR"/>
+        <result property="serviceId" column="service_id" jdbcType="VARCHAR"/>
+        <result property="eventTime" column="event_time" jdbcType="TIMESTAMP"/>
+        <result property="creatorId" column="creator_id" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+        <result property="updatorId" column="updator_id" jdbcType="VARCHAR"/>
+    </resultMap>
+</mapper>
+

@@ -1,0 +1,1802 @@
+2024-11-09 15:34:23 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 13548 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-09 15:34:23 - No active profile set, falling back to default profiles: default
+2024-11-09 15:34:24 - Tomcat initialized with port(s): 8080 (http)
+2024-11-09 15:34:24 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-09 15:34:24 - Starting service [Tomcat]
+2024-11-09 15:34:24 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-09 15:34:24 - Initializing Spring embedded WebApplicationContext
+2024-11-09 15:34:24 - Root WebApplicationContext: initialization completed in 1453 ms
+2024-11-09 15:34:26 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-09 15:34:26 - Initializing ExecutorService 'taskScheduler'
+2024-11-09 15:34:26 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 15:34:26 - Kafka version: 2.7.1
+2024-11-09 15:34:26 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 15:34:26 - Kafka startTimeMs: 1731137666681
+2024-11-09 15:34:26 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_Smoke
+2024-11-09 15:34:26 - Initializing ExecutorService
+2024-11-09 15:34:26 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 15:34:26 - Kafka version: 2.7.1
+2024-11-09 15:34:26 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 15:34:26 - Kafka startTimeMs: 1731137666708
+2024-11-09 15:34:26 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_HTSensor
+2024-11-09 15:34:26 - Initializing ExecutorService
+2024-11-09 15:34:26 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 15:34:26 - Kafka version: 2.7.1
+2024-11-09 15:34:26 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 15:34:26 - Kafka startTimeMs: 1731137666724
+2024-11-09 15:34:26 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-09 15:34:26 - Initializing ExecutorService
+2024-11-09 15:34:26 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-09 15:34:26 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-09 15:34:26 - Started AviationShowApplication in 4.296 seconds (JVM running for 7.001)
+2024-11-09 15:36:00 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-09 15:36:00 - Initializing Servlet 'dispatcherServlet'
+2024-11-09 15:36:00 - Completed initialization in 8 ms
+2024-11-09 15:36:00 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 15:36:54 - HikariPool-1 - Starting...
+2024-11-09 15:37:06 - HikariPool-1 - Start completed.
+2024-11-09 15:42:49 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-09 15:42:49 - Shutting down ExecutorService
+2024-11-09 15:42:49 - Metrics scheduler closed
+2024-11-09 15:42:49 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-09 15:42:49 - Metrics reporters closed
+2024-11-09 15:42:49 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-09 15:42:49 - ygpt-zhdh: Consumer stopped
+2024-11-09 15:42:49 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-09 15:42:49 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-09 15:42:49 - Shutting down ExecutorService
+2024-11-09 15:42:49 - Shutting down ExecutorService
+2024-11-09 15:42:49 - Metrics scheduler closed
+2024-11-09 15:42:49 - Metrics scheduler closed
+2024-11-09 15:42:49 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-09 15:42:49 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-09 15:42:49 - Metrics reporters closed
+2024-11-09 15:42:49 - Metrics reporters closed
+2024-11-09 15:42:49 - App info kafka.consumer for consumer-ygpt-zhdh-3 unregistered
+2024-11-09 15:42:49 - ygpt-zhdh: Consumer stopped
+2024-11-09 15:42:49 - App info kafka.consumer for consumer-ygpt-zhdh-2 unregistered
+2024-11-09 15:42:49 - ygpt-zhdh: Consumer stopped
+2024-11-09 15:42:49 - Shutting down ExecutorService 'taskScheduler'
+2024-11-09 15:42:49 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-09 15:42:49 - HikariPool-1 - Shutdown initiated...
+2024-11-09 15:42:49 - HikariPool-1 - Shutdown completed.
+2024-11-09 15:42:59 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 14248 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-09 15:42:59 - No active profile set, falling back to default profiles: default
+2024-11-09 15:43:01 - Tomcat initialized with port(s): 8080 (http)
+2024-11-09 15:43:01 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-09 15:43:01 - Starting service [Tomcat]
+2024-11-09 15:43:01 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-09 15:43:01 - Initializing Spring embedded WebApplicationContext
+2024-11-09 15:43:01 - Root WebApplicationContext: initialization completed in 1822 ms
+2024-11-09 15:43:03 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-09 15:43:03 - Initializing ExecutorService 'taskScheduler'
+2024-11-09 15:43:03 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 15:43:03 - Kafka version: 2.7.1
+2024-11-09 15:43:03 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 15:43:03 - Kafka startTimeMs: 1731138183749
+2024-11-09 15:43:03 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_Smoke
+2024-11-09 15:43:03 - Initializing ExecutorService
+2024-11-09 15:43:03 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 15:43:03 - Kafka version: 2.7.1
+2024-11-09 15:43:03 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 15:43:03 - Kafka startTimeMs: 1731138183779
+2024-11-09 15:43:03 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-09 15:43:03 - Initializing ExecutorService
+2024-11-09 15:43:03 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 15:43:03 - Kafka version: 2.7.1
+2024-11-09 15:43:03 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 15:43:03 - Kafka startTimeMs: 1731138183801
+2024-11-09 15:43:03 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_HTSensor
+2024-11-09 15:43:03 - Initializing ExecutorService
+2024-11-09 15:43:03 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-09 15:43:03 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-09 15:43:03 - Started AviationShowApplication in 5.009 seconds (JVM running for 6.5)
+2024-11-09 15:43:31 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-09 15:43:31 - Initializing Servlet 'dispatcherServlet'
+2024-11-09 15:43:31 - Completed initialization in 9 ms
+2024-11-09 15:43:31 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 15:43:53 - HikariPool-1 - Starting...
+2024-11-09 15:44:02 - HikariPool-1 - Start completed.
+2024-11-09 15:44:56 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 15:45:00 - 开始同步电流数据------>>>>>>>>
+2024-11-09 15:45:00 - 同步电流实时数据成功！
+2024-11-09 16:37:47 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 5428 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-09 16:37:47 - No active profile set, falling back to default profiles: default
+2024-11-09 16:37:48 - Tomcat initialized with port(s): 8080 (http)
+2024-11-09 16:37:48 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-09 16:37:48 - Starting service [Tomcat]
+2024-11-09 16:37:48 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-09 16:37:48 - Initializing Spring embedded WebApplicationContext
+2024-11-09 16:37:48 - Root WebApplicationContext: initialization completed in 1398 ms
+2024-11-09 16:37:50 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-09 16:37:50 - Initializing ExecutorService 'taskScheduler'
+2024-11-09 16:37:50 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.76.59:9092, 10.10.76.58:9092, 10.10.76.60:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 16:37:50 - Kafka version: 2.7.1
+2024-11-09 16:37:50 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 16:37:50 - Kafka startTimeMs: 1731141470789
+2024-11-09 16:37:50 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_HTSensor
+2024-11-09 16:37:50 - Initializing ExecutorService
+2024-11-09 16:37:50 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.76.59:9092, 10.10.76.58:9092, 10.10.76.60:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 16:37:50 - Kafka version: 2.7.1
+2024-11-09 16:37:50 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 16:37:50 - Kafka startTimeMs: 1731141470811
+2024-11-09 16:37:50 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_Smoke
+2024-11-09 16:37:50 - Initializing ExecutorService
+2024-11-09 16:37:50 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.76.59:9092, 10.10.76.58:9092, 10.10.76.60:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 16:37:50 - Kafka version: 2.7.1
+2024-11-09 16:37:50 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 16:37:50 - Kafka startTimeMs: 1731141470824
+2024-11-09 16:37:50 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-09 16:37:50 - Initializing ExecutorService
+2024-11-09 16:37:50 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-09 16:37:50 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-09 16:37:50 - Started AviationShowApplication in 4.271 seconds (JVM running for 5.452)
+2024-11-09 16:38:37 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-09 16:38:37 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-09 16:38:37 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-09 16:38:37 - Shutting down ExecutorService
+2024-11-09 16:38:37 - Shutting down ExecutorService
+2024-11-09 16:38:37 - Shutting down ExecutorService
+2024-11-09 16:38:37 - Metrics scheduler closed
+2024-11-09 16:38:37 - Metrics scheduler closed
+2024-11-09 16:38:37 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-09 16:38:37 - Metrics scheduler closed
+2024-11-09 16:38:37 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-09 16:38:37 - Metrics reporters closed
+2024-11-09 16:38:37 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-09 16:38:37 - Metrics reporters closed
+2024-11-09 16:38:37 - Metrics reporters closed
+2024-11-09 16:38:37 - App info kafka.consumer for consumer-ygpt-zhdh-3 unregistered
+2024-11-09 16:38:37 - ygpt-zhdh: Consumer stopped
+2024-11-09 16:38:37 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-09 16:38:37 - ygpt-zhdh: Consumer stopped
+2024-11-09 16:38:37 - App info kafka.consumer for consumer-ygpt-zhdh-2 unregistered
+2024-11-09 16:38:37 - ygpt-zhdh: Consumer stopped
+2024-11-09 16:38:37 - Shutting down ExecutorService 'taskScheduler'
+2024-11-09 16:38:37 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-09 16:38:41 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 2768 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-09 16:38:41 - No active profile set, falling back to default profiles: default
+2024-11-09 16:38:43 - Tomcat initialized with port(s): 8080 (http)
+2024-11-09 16:38:43 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-09 16:38:43 - Starting service [Tomcat]
+2024-11-09 16:38:43 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-09 16:38:43 - Initializing Spring embedded WebApplicationContext
+2024-11-09 16:38:43 - Root WebApplicationContext: initialization completed in 1352 ms
+2024-11-09 16:38:44 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-09 16:38:44 - Initializing ExecutorService 'taskScheduler'
+2024-11-09 16:38:44 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 16:38:45 - Kafka version: 2.7.1
+2024-11-09 16:38:45 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 16:38:45 - Kafka startTimeMs: 1731141525029
+2024-11-09 16:38:45 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_Smoke
+2024-11-09 16:38:45 - Initializing ExecutorService
+2024-11-09 16:38:45 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 16:38:45 - Kafka version: 2.7.1
+2024-11-09 16:38:45 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 16:38:45 - Kafka startTimeMs: 1731141525051
+2024-11-09 16:38:45 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_HTSensor
+2024-11-09 16:38:45 - Initializing ExecutorService
+2024-11-09 16:38:45 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 16:38:45 - Kafka version: 2.7.1
+2024-11-09 16:38:45 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 16:38:45 - Kafka startTimeMs: 1731141525074
+2024-11-09 16:38:45 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-09 16:38:45 - Initializing ExecutorService
+2024-11-09 16:38:45 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-09 16:38:45 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-09 16:38:45 - Started AviationShowApplication in 4.208 seconds (JVM running for 5.404)
+2024-11-09 16:40:07 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-09 16:40:07 - Initializing Servlet 'dispatcherServlet'
+2024-11-09 16:40:07 - Completed initialization in 7 ms
+2024-11-09 16:40:07 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:40:07 - HikariPool-1 - Starting...
+2024-11-09 16:40:07 - HikariPool-1 - Start completed.
+2024-11-09 16:40:09 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:40:10 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:40:11 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:40:13 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:40:14 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:40:15 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:41:51 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:41:53 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:41:54 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:42:16 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:42:17 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:42:18 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:42:19 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:42:20 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:43:22 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-09 16:43:49 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:12 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:13 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:13 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:13 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:14 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:14 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:14 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:14 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:40 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgTemperature\":12.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:41 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgTemperature\":12.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:42 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgTemperature\":12.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:42 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgTemperature\":12.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:42 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgTemperature\":12.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:42 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgTemperature\":12.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:44:42 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgTemperature\":12.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 16:45:00 - 开始同步电流数据------>>>>>>>>
+2024-11-09 16:45:00 - 同步电流实时数据成功！
+2024-11-09 16:45:31 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C06216"}}
+2024-11-09 16:45:32 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C06216"}}
+2024-11-09 16:46:02 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":15.800000,\"tgTemperature\":15.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:21:13 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 3904 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-09 17:21:13 - No active profile set, falling back to default profiles: default
+2024-11-09 17:21:15 - Tomcat initialized with port(s): 8080 (http)
+2024-11-09 17:21:15 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-09 17:21:15 - Starting service [Tomcat]
+2024-11-09 17:21:15 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-09 17:21:15 - Initializing Spring embedded WebApplicationContext
+2024-11-09 17:21:15 - Root WebApplicationContext: initialization completed in 1709 ms
+2024-11-09 17:21:16 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-09 17:21:17 - Initializing ExecutorService 'taskScheduler'
+2024-11-09 17:21:17 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 17:21:17 - Kafka version: 2.7.1
+2024-11-09 17:21:17 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 17:21:17 - Kafka startTimeMs: 1731144077374
+2024-11-09 17:21:17 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_Smoke
+2024-11-09 17:21:17 - Initializing ExecutorService
+2024-11-09 17:21:17 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 17:21:17 - Kafka version: 2.7.1
+2024-11-09 17:21:17 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 17:21:17 - Kafka startTimeMs: 1731144077402
+2024-11-09 17:21:17 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_HTSensor
+2024-11-09 17:21:17 - Initializing ExecutorService
+2024-11-09 17:21:17 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 17:21:17 - Kafka version: 2.7.1
+2024-11-09 17:21:17 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 17:21:17 - Kafka startTimeMs: 1731144077416
+2024-11-09 17:21:17 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-09 17:21:17 - Initializing ExecutorService
+2024-11-09 17:21:17 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-09 17:21:17 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-09 17:21:17 - Started AviationShowApplication in 4.704 seconds (JVM running for 5.926)
+2024-11-09 17:23:09 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-09 17:23:09 - Initializing Servlet 'dispatcherServlet'
+2024-11-09 17:23:09 - Completed initialization in 9 ms
+2024-11-09 17:23:09 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C06216"}}
+2024-11-09 17:23:09 - HikariPool-1 - Starting...
+2024-11-09 17:23:10 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C06216"}}
+2024-11-09 17:23:10 - HikariPool-1 - Start completed.
+2024-11-09 17:23:10 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C06216"}}
+2024-11-09 17:23:11 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C06216"}}
+2024-11-09 17:23:52 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":15.800000,\"tgTemperature\":15.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:23:54 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":15.800000,\"tgTemperature\":15.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:23:54 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":15.800000,\"tgTemperature\":15.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:24:28 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":55.800000,\"tgTemperature\":55.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:26:19 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-09 17:26:19 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-09 17:26:19 - Shutting down ExecutorService
+2024-11-09 17:26:19 - Shutting down ExecutorService
+2024-11-09 17:26:19 - Metrics scheduler closed
+2024-11-09 17:26:19 - Metrics scheduler closed
+2024-11-09 17:26:19 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-09 17:26:19 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-09 17:26:19 - Metrics reporters closed
+2024-11-09 17:26:19 - Metrics reporters closed
+2024-11-09 17:26:19 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-09 17:26:19 - App info kafka.consumer for consumer-ygpt-zhdh-2 unregistered
+2024-11-09 17:26:19 - ygpt-zhdh: Consumer stopped
+2024-11-09 17:26:19 - ygpt-zhdh: Consumer stopped
+2024-11-09 17:26:19 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-09 17:26:19 - Shutting down ExecutorService
+2024-11-09 17:26:19 - Metrics scheduler closed
+2024-11-09 17:26:19 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-09 17:26:19 - Metrics reporters closed
+2024-11-09 17:26:19 - App info kafka.consumer for consumer-ygpt-zhdh-3 unregistered
+2024-11-09 17:26:19 - ygpt-zhdh: Consumer stopped
+2024-11-09 17:26:19 - Shutting down ExecutorService 'taskScheduler'
+2024-11-09 17:26:19 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-09 17:26:19 - HikariPool-1 - Shutdown initiated...
+2024-11-09 17:26:19 - HikariPool-1 - Shutdown completed.
+2024-11-09 17:26:29 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 11964 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-09 17:26:29 - No active profile set, falling back to default profiles: default
+2024-11-09 17:26:30 - Tomcat initialized with port(s): 8080 (http)
+2024-11-09 17:26:30 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-09 17:26:30 - Starting service [Tomcat]
+2024-11-09 17:26:30 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-09 17:26:31 - Initializing Spring embedded WebApplicationContext
+2024-11-09 17:26:31 - Root WebApplicationContext: initialization completed in 1838 ms
+2024-11-09 17:26:33 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-09 17:26:33 - Initializing ExecutorService 'taskScheduler'
+2024-11-09 17:26:34 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 17:26:34 - Kafka version: 2.7.1
+2024-11-09 17:26:34 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 17:26:34 - Kafka startTimeMs: 1731144394227
+2024-11-09 17:26:34 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_HTSensor
+2024-11-09 17:26:34 - Initializing ExecutorService
+2024-11-09 17:26:34 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 17:26:34 - Kafka version: 2.7.1
+2024-11-09 17:26:34 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 17:26:34 - Kafka startTimeMs: 1731144394268
+2024-11-09 17:26:34 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-09 17:26:34 - Initializing ExecutorService
+2024-11-09 17:26:34 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-09 17:26:34 - Kafka version: 2.7.1
+2024-11-09 17:26:34 - Kafka commitId: 61dbce85d0d41457
+2024-11-09 17:26:34 - Kafka startTimeMs: 1731144394287
+2024-11-09 17:26:34 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_Smoke
+2024-11-09 17:26:34 - Initializing ExecutorService
+2024-11-09 17:26:34 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-09 17:26:34 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-09 17:26:34 - Started AviationShowApplication in 6.057 seconds (JVM running for 7.219)
+2024-11-09 17:27:17 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-09 17:27:17 - Initializing Servlet 'dispatcherServlet'
+2024-11-09 17:27:17 - Completed initialization in 8 ms
+2024-11-09 17:27:17 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:17 - HikariPool-1 - Starting...
+2024-11-09 17:27:18 - HikariPool-1 - Start completed.
+2024-11-09 17:27:18 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:19 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:20 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:20 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:20 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:20 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:20 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:20 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:21 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:21 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:21 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:21 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:21 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:21 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:21 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:22 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:27:22 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":33.800000,\"tgTemperature\":33.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-09 17:28:14 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:28:15 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:28:15 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:28:15 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:28:15 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:28:15 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:28:16 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:28:16 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:28:16 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:28:16 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:30:00 - 开始同步电流数据------>>>>>>>>
+2024-11-09 17:30:00 - 同步电流实时数据成功！
+2024-11-09 17:30:11 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:30:13 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:30:13 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:30:13 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:30:14 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:30:14 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:30:14 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:30:14 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:30:14 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C06216"}}
+2024-11-09 17:30:51 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07308"}}
+2024-11-09 17:30:51 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07308"}}
+2024-11-09 17:30:51 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07308"}}
+2024-11-09 17:30:51 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07308"}}
+2024-11-09 17:30:52 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07308"}}
+2024-11-09 17:30:52 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07308"}}
+2024-11-09 17:30:52 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07308"}}
+2024-11-09 17:30:52 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07308"}}
+2024-11-09 17:31:39 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07305"}}
+2024-11-09 17:31:40 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07305"}}
+2024-11-09 17:31:41 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07305"}}
+2024-11-09 17:31:41 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07305"}}
+2024-11-09 17:31:41 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07305"}}
+2024-11-09 17:31:41 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07305"}}
+2024-11-09 17:31:41 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgHumidity\":44.800000,\"tgTemperature\":44.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2407C07308","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2407C07305"}}
+2024-11-09 17:33:32 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C07305"}}
+2024-11-09 17:33:35 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C07305"}}
+2024-11-09 17:33:35 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C07305"}}
+2024-11-09 17:33:35 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C07305"}}
+2024-11-09 17:33:35 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C07305"}}
+2024-11-09 17:33:36 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C07305"}}
+2024-11-09 17:33:59 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C07308"}}
+2024-11-09 17:34:01 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C07308"}}
+2024-11-09 17:34:01 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C07308"}}
+2024-11-09 17:34:02 - 开始调用接口/electricOperationData/test------->>>>>> 请求参数: {"data":"{\"tgStatus\":0}","properties":{"deviceIdentifier":"503D2407C06216_Smoke","eventTime":"20241108T112428Z","gatewayIdentifier":"503D2407C06216","serviceId":"serviceSmoke","deviceId":"D37851170309fcqU3","gatewayId":"503D2407C07308"}}

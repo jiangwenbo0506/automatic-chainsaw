@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blk.mapper.TransformPlayloadMapper">
+    <resultMap id="BaseResultMap" type="com.blk.model.entity.TransformPlayload">
+        <!--@Table _transform_playload-->
+        <result property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="creatorId" column="creator_id" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="eventTime" column="event_time" jdbcType="TIMESTAMP"/>
+        <result property="transformPlayload" column="transform_playload" jdbcType="VARCHAR"/>
+        <result property="transformName" column="transform_name" jdbcType="VARCHAR"/>
+        <result property="gatewayIdentifier" column="gateway_identifier" jdbcType="VARCHAR"/>
+        <result property="stationName" column="station_name" jdbcType="VARCHAR"/>
+        <result property="transformCapacity" column="transform_capacity" jdbcType="VARCHAR"/>
+    </resultMap>
+</mapper>
+

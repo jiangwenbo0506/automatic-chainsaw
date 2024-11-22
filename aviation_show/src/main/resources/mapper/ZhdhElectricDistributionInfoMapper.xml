@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blk.mapper.ElectricDistributionInfoMapper">
+    <resultMap id="BaseResultMap" type="com.blk.model.entity.ElectricDistributionInfo">
+        <result property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="electricStation" column="electric_station" jdbcType="VARCHAR"/>
+        <result property="electricStationSource" column="electric_station_source" jdbcType="VARCHAR"/>
+        <result property="electricStationLine" column="electric_station_line" jdbcType="VARCHAR"/>
+        <result property="transformerName" column="transformer_name" jdbcType="VARCHAR"/>
+        <result property="transformerCapacity" column="transformer_capacity" jdbcType="INTEGER"/>
+        <result property="transformerType" column="transformer_type" jdbcType="VARCHAR"/>
+        <result property="manufactor" column="manufactor" jdbcType="VARCHAR"/>
+        <result property="voltageSwitchCode" column="voltage_switch_code" jdbcType="VARCHAR"/>
+        <result property="mountType" column="mount_type" jdbcType="VARCHAR"/>
+        <result property="ratedCurrent" column="rated_current" jdbcType="INTEGER"/>
+        <result property="outDiameter" column="out_diameter" jdbcType="VARCHAR"/>
+        <result property="elecCustNo" column="elec_cust_no" jdbcType="VARCHAR"/>
+        <result property="stationName" column="station_name" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!-- 查询 transformer_name 并分组 -->
+    <select id="getTransformerNames" resultType="com.blk.model.vo.LedgerListVo">
+        SELECT transformer_name,transformer_capacity
+        FROM zhdh_electric_distribution_info
+        WHERE station_name = #{stationName}
+        GROUP BY transformer_name,transformer_capacity
+    </select>
+</mapper>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blk.mapper.MeasureDataHistoryMapper">
+    <resultMap id="BaseResultMap" type="com.blk.model.entity.MeasureDataHistory">
+        <result property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="creatorId" column="creator_id" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+        <result property="updatorId" column="updator_id" jdbcType="VARCHAR"/>
+        <result property="orgId" column="org_id" jdbcType="VARCHAR"/>
+        <result property="productId" column="product_id" jdbcType="VARCHAR"/>
+        <result property="appId" column="app_id" jdbcType="VARCHAR"/>
+        <result property="eventTime" column="event_time" jdbcType="TIMESTAMP"/>
+        <result property="gatewayIdentifier" column="gateway_identifier" jdbcType="VARCHAR"/>
+        <result property="serviceId" column="service_id" jdbcType="VARCHAR"/>
+        <result property="deviceId" column="device_id" jdbcType="VARCHAR"/>
+        <result property="gatewayId" column="gateway_id" jdbcType="VARCHAR"/>
+        <result property="deviceIdentifier" column="device_identifier" jdbcType="VARCHAR"/>
+        <result property="tgia" column="tgia" jdbcType="VARCHAR"/>
+        <result property="tgib" column="tgib" jdbcType="VARCHAR"/>
+        <result property="tgic" column="tgic" jdbcType="VARCHAR"/>
+        <result property="swicthStatus" column="swicth_status" jdbcType="VARCHAR"/>
+        <result property="swicthNo" column="swicth_no" jdbcType="VARCHAR"/>
+        <result property="stationName" column="station_name" jdbcType="VARCHAR"/>
+        <result property="transformName" column="transform_name" jdbcType="VARCHAR"/>
+        <result property="ratedCurrent" column="rated_current" jdbcType="VARCHAR"/>
+        <result property="transformCapacity" column="transform_capacity" jdbcType="VARCHAR"/>
+    </resultMap>
+</mapper>
+

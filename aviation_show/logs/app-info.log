@@ -1,0 +1,1989 @@
+2024-11-08 10:23:10 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 4888 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-08 10:23:10 - No active profile set, falling back to default profiles: default
+2024-11-08 10:23:15 - Tomcat initialized with port(s): 8080 (http)
+2024-11-08 10:23:15 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:23:15 - Starting service [Tomcat]
+2024-11-08 10:23:15 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-08 10:23:16 - Initializing Spring embedded WebApplicationContext
+2024-11-08 10:23:16 - Root WebApplicationContext: initialization completed in 5680 ms
+2024-11-08 10:23:19 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-08 10:23:19 - Initializing ExecutorService 'taskScheduler'
+2024-11-08 10:23:20 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.76.59:9092, 10.10.76.58:9092, 10.10.76.60:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 10:23:20 - Kafka version: 2.7.1
+2024-11-08 10:23:20 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 10:23:20 - Kafka startTimeMs: 1731032600586
+2024-11-08 10:23:20 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-08 10:23:20 - Initializing ExecutorService
+2024-11-08 10:23:20 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:23:20 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 10:23:20 - Started AviationShowApplication in 12.668 seconds (JVM running for 18.951)
+2024-11-08 10:25:51 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 14752 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-08 10:25:51 - No active profile set, falling back to default profiles: default
+2024-11-08 10:25:52 - Tomcat initialized with port(s): 8080 (http)
+2024-11-08 10:25:52 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:25:52 - Starting service [Tomcat]
+2024-11-08 10:25:52 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-08 10:25:52 - Initializing Spring embedded WebApplicationContext
+2024-11-08 10:25:52 - Root WebApplicationContext: initialization completed in 1513 ms
+2024-11-08 10:25:54 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-08 10:25:54 - Initializing ExecutorService 'taskScheduler'
+2024-11-08 10:25:54 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 10:25:54 - Kafka version: 2.7.1
+2024-11-08 10:25:54 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 10:25:54 - Kafka startTimeMs: 1731032754923
+2024-11-08 10:25:54 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-08 10:25:54 - Initializing ExecutorService
+2024-11-08 10:25:54 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:25:54 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 10:25:54 - Started AviationShowApplication in 4.571 seconds (JVM running for 5.984)
+2024-11-08 10:24:18 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 10:24:18 - Shutting down ExecutorService
+2024-11-08 10:24:18 - Metrics scheduler closed
+2024-11-08 10:24:18 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 10:24:18 - Metrics reporters closed
+2024-11-08 10:24:18 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-08 10:24:18 - ygpt-zhdh: Consumer stopped
+2024-11-08 10:24:18 - Shutting down ExecutorService 'taskScheduler'
+2024-11-08 10:24:18 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-08 10:24:22 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 17060 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-08 10:24:22 - No active profile set, falling back to default profiles: default
+2024-11-08 10:24:23 - Tomcat initialized with port(s): 8080 (http)
+2024-11-08 10:24:23 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:24:23 - Starting service [Tomcat]
+2024-11-08 10:24:23 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-08 10:24:24 - Initializing Spring embedded WebApplicationContext
+2024-11-08 10:24:24 - Root WebApplicationContext: initialization completed in 1400 ms
+2024-11-08 10:24:25 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-08 10:24:25 - Initializing ExecutorService 'taskScheduler'
+2024-11-08 10:24:25 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 10:24:25 - Kafka version: 2.7.1
+2024-11-08 10:24:25 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 10:24:25 - Kafka startTimeMs: 1731032665977
+2024-11-08 10:24:25 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-08 10:24:25 - Initializing ExecutorService
+2024-11-08 10:24:25 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:24:26 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 10:24:26 - Started AviationShowApplication in 4.315 seconds (JVM running for 5.546)
+2024-11-08 10:29:43 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 10:29:43 - Shutting down ExecutorService
+2024-11-08 10:29:43 - Metrics scheduler closed
+2024-11-08 10:29:43 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 10:29:43 - Metrics reporters closed
+2024-11-08 10:29:43 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-08 10:29:43 - ygpt-zhdh: Consumer stopped
+2024-11-08 10:29:43 - Shutting down ExecutorService 'taskScheduler'
+2024-11-08 10:29:43 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-08 10:29:48 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 3148 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-08 10:29:48 - No active profile set, falling back to default profiles: default
+2024-11-08 10:29:49 - Tomcat initialized with port(s): 8080 (http)
+2024-11-08 10:29:49 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:29:49 - Starting service [Tomcat]
+2024-11-08 10:29:49 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-08 10:29:49 - Initializing Spring embedded WebApplicationContext
+2024-11-08 10:29:49 - Root WebApplicationContext: initialization completed in 1435 ms
+2024-11-08 10:29:51 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-08 10:29:51 - Initializing ExecutorService 'taskScheduler'
+2024-11-08 10:29:51 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 10:29:51 - Kafka version: 2.7.1
+2024-11-08 10:29:51 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 10:29:51 - Kafka startTimeMs: 1731032991889
+2024-11-08 10:29:51 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-08 10:29:51 - Initializing ExecutorService
+2024-11-08 10:29:51 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:29:51 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 10:29:51 - Started AviationShowApplication in 4.507 seconds (JVM running for 5.802)
+2024-11-08 10:30:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 10:30:00 - HikariPool-1 - Starting...
+2024-11-08 10:30:00 - HikariPool-1 - Start completed.
+2024-11-08 10:30:01 - 同步电流实时数据成功！
+2024-11-08 10:29:02 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 10:29:02 - Shutting down ExecutorService
+2024-11-08 10:29:02 - Metrics scheduler closed
+2024-11-08 10:29:02 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 10:29:02 - Metrics reporters closed
+2024-11-08 10:29:02 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-08 10:29:02 - ygpt-zhdh: Consumer stopped
+2024-11-08 10:29:02 - Shutting down ExecutorService 'taskScheduler'
+2024-11-08 10:29:02 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-08 10:29:02 - HikariPool-1 - Shutdown initiated...
+2024-11-08 10:29:02 - HikariPool-1 - Shutdown completed.
+2024-11-08 10:29:06 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 9744 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-08 10:29:06 - No active profile set, falling back to default profiles: default
+2024-11-08 10:29:08 - Tomcat initialized with port(s): 8080 (http)
+2024-11-08 10:29:08 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:29:08 - Starting service [Tomcat]
+2024-11-08 10:29:08 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-08 10:29:08 - Initializing Spring embedded WebApplicationContext
+2024-11-08 10:29:08 - Root WebApplicationContext: initialization completed in 1496 ms
+2024-11-08 10:29:09 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-08 10:29:10 - Initializing ExecutorService 'taskScheduler'
+2024-11-08 10:29:10 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 10:29:10 - Kafka version: 2.7.1
+2024-11-08 10:29:10 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 10:29:10 - Kafka startTimeMs: 1731032950408
+2024-11-08 10:29:10 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-08 10:29:10 - Initializing ExecutorService
+2024-11-08 10:29:10 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:29:10 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 10:29:10 - Started AviationShowApplication in 4.373 seconds (JVM running for 5.616)
+2024-11-08 10:30:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 10:30:00 - HikariPool-1 - Starting...
+2024-11-08 10:30:00 - HikariPool-1 - Start completed.
+2024-11-08 10:30:01 - 同步电流实时数据成功！
+2024-11-08 10:29:51 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 10:29:51 - Shutting down ExecutorService
+2024-11-08 10:29:51 - Metrics scheduler closed
+2024-11-08 10:29:51 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 10:29:51 - Metrics reporters closed
+2024-11-08 10:29:51 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-08 10:29:51 - ygpt-zhdh: Consumer stopped
+2024-11-08 10:29:51 - Shutting down ExecutorService 'taskScheduler'
+2024-11-08 10:29:51 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-08 10:29:51 - HikariPool-1 - Shutdown initiated...
+2024-11-08 10:29:51 - HikariPool-1 - Shutdown completed.
+2024-11-08 10:29:58 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 16752 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-08 10:29:58 - No active profile set, falling back to default profiles: default
+2024-11-08 10:30:00 - Tomcat initialized with port(s): 8080 (http)
+2024-11-08 10:30:00 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:30:00 - Starting service [Tomcat]
+2024-11-08 10:30:00 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-08 10:30:00 - Initializing Spring embedded WebApplicationContext
+2024-11-08 10:30:00 - Root WebApplicationContext: initialization completed in 1501 ms
+2024-11-08 10:30:01 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-08 10:30:02 - Initializing ExecutorService 'taskScheduler'
+2024-11-08 10:30:02 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 10:30:02 - Kafka version: 2.7.1
+2024-11-08 10:30:02 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 10:30:02 - Kafka startTimeMs: 1731033002361
+2024-11-08 10:30:02 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-08 10:30:02 - Initializing ExecutorService
+2024-11-08 10:30:02 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:30:02 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 10:30:02 - Started AviationShowApplication in 4.476 seconds (JVM running for 5.735)
+2024-11-08 10:30:09 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 10:30:09 - Shutting down ExecutorService
+2024-11-08 10:30:09 - Metrics scheduler closed
+2024-11-08 10:30:09 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 10:30:09 - Metrics reporters closed
+2024-11-08 10:30:09 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-08 10:30:09 - ygpt-zhdh: Consumer stopped
+2024-11-08 10:30:09 - Shutting down ExecutorService 'taskScheduler'
+2024-11-08 10:30:09 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-08 10:29:25 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 14476 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-08 10:29:25 - No active profile set, falling back to default profiles: default
+2024-11-08 10:29:27 - Tomcat initialized with port(s): 8080 (http)
+2024-11-08 10:29:27 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:29:27 - Starting service [Tomcat]
+2024-11-08 10:29:27 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-08 10:29:27 - Initializing Spring embedded WebApplicationContext
+2024-11-08 10:29:27 - Root WebApplicationContext: initialization completed in 1472 ms
+2024-11-08 10:29:28 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-08 10:29:28 - Initializing ExecutorService 'taskScheduler'
+2024-11-08 10:29:29 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 10:29:29 - Kafka version: 2.7.1
+2024-11-08 10:29:29 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 10:29:29 - Kafka startTimeMs: 1731032969087
+2024-11-08 10:29:29 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-08 10:29:29 - Initializing ExecutorService
+2024-11-08 10:29:29 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 10:29:29 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 10:29:29 - Started AviationShowApplication in 4.389 seconds (JVM running for 5.612)
+2024-11-08 10:30:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 10:30:00 - HikariPool-1 - Starting...
+2024-11-08 10:30:00 - HikariPool-1 - Start completed.
+2024-11-08 10:30:01 - 同步电流实时数据成功！
+2024-11-08 10:31:41 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 10:31:41 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 10:31:41 - Completed initialization in 18 ms
+2024-11-08 10:31:42 - 开始调用接口/measureData/current/getCurve------->>>>>> 请求参数: 4293|1|2024-11-08
+2024-11-08 10:45:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 10:45:00 - 同步电流实时数据成功！
+2024-11-08 11:00:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 11:00:00 - 同步电流实时数据成功！
+2024-11-08 11:15:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 11:15:00 - 同步电流实时数据成功！
+2024-11-08 11:22:54 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 11:22:54 - Shutting down ExecutorService
+2024-11-08 11:22:54 - Metrics scheduler closed
+2024-11-08 11:22:54 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 11:22:54 - Metrics reporters closed
+2024-11-08 11:22:54 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-08 11:22:54 - ygpt-zhdh: Consumer stopped
+2024-11-08 11:22:54 - Shutting down ExecutorService 'taskScheduler'
+2024-11-08 11:22:54 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-08 11:22:54 - HikariPool-1 - Shutdown initiated...
+2024-11-08 11:22:54 - HikariPool-1 - Shutdown completed.
+2024-11-08 11:40:22 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 5588 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-08 11:40:22 - No active profile set, falling back to default profiles: default
+2024-11-08 11:40:23 - Tomcat initialized with port(s): 8080 (http)
+2024-11-08 11:40:23 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 11:40:23 - Starting service [Tomcat]
+2024-11-08 11:40:23 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-08 11:40:24 - Initializing Spring embedded WebApplicationContext
+2024-11-08 11:40:24 - Root WebApplicationContext: initialization completed in 1422 ms
+2024-11-08 11:40:25 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-08 11:40:25 - Initializing ExecutorService 'taskScheduler'
+2024-11-08 11:40:25 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.76.59:9092, 10.10.76.58:9092, 10.10.76.60:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 11:40:26 - Kafka version: 2.7.1
+2024-11-08 11:40:26 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 11:40:26 - Kafka startTimeMs: 1731037226084
+2024-11-08 11:40:26 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-08 11:40:26 - Initializing ExecutorService
+2024-11-08 11:40:26 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 11:40:26 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 11:40:26 - Started AviationShowApplication in 4.486 seconds (JVM running for 5.784)
+2024-11-08 11:40:34 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 11:40:34 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 11:40:34 - Completed initialization in 9 ms
+2024-11-08 11:40:34 - 开始调用接口/measureData/list------->>>>>> 请求参数: 1
+2024-11-08 11:40:34 - HikariPool-1 - Starting...
+2024-11-08 11:41:23 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 13916 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-08 11:41:23 - No active profile set, falling back to default profiles: default
+2024-11-08 11:41:25 - Tomcat initialized with port(s): 8080 (http)
+2024-11-08 11:41:25 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 11:41:25 - Starting service [Tomcat]
+2024-11-08 11:41:25 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-08 11:41:25 - Initializing Spring embedded WebApplicationContext
+2024-11-08 11:41:25 - Root WebApplicationContext: initialization completed in 1396 ms
+2024-11-08 11:41:26 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-08 11:41:27 - Initializing ExecutorService 'taskScheduler'
+2024-11-08 11:41:27 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 11:41:27 - Kafka version: 2.7.1
+2024-11-08 11:41:27 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 11:41:27 - Kafka startTimeMs: 1731037287385
+2024-11-08 11:41:27 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-08 11:41:27 - Initializing ExecutorService
+2024-11-08 11:41:27 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 11:41:27 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 11:41:27 - Started AviationShowApplication in 4.369 seconds (JVM running for 5.63)
+2024-11-08 11:41:36 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 11:41:36 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 11:41:36 - Completed initialization in 15 ms
+2024-11-08 11:41:36 - 开始调用接口/measureData/list------->>>>>> 请求参数: 1
+2024-11-08 11:41:36 - HikariPool-1 - Starting...
+2024-11-08 11:41:37 - HikariPool-1 - Start completed.
+2024-11-08 11:45:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 11:45:00 - 同步电流实时数据成功！
+2024-11-08 12:00:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 12:00:00 - 同步电流实时数据成功！
+2024-11-08 12:15:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 12:15:00 - 同步电流实时数据成功！
+2024-11-08 12:30:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 12:30:00 - 同步电流实时数据成功！
+2024-11-08 12:45:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 12:45:00 - 同步电流实时数据成功！
+2024-11-08 13:00:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 13:00:00 - 同步电流实时数据成功！
+2024-11-08 13:15:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 13:15:00 - 同步电流实时数据成功！
+2024-11-08 13:30:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 13:30:00 - 同步电流实时数据成功！
+2024-11-08 13:45:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 13:45:00 - 同步电流实时数据成功！
+2024-11-08 14:00:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 14:00:00 - 同步电流实时数据成功！
+2024-11-08 14:15:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 14:15:00 - 同步电流实时数据成功！
+2024-11-08 14:30:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 14:30:00 - 同步电流实时数据成功！
+2024-11-08 14:45:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 14:45:00 - 同步电流实时数据成功！
+2024-11-08 14:49:13 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 14:49:13 - Shutting down ExecutorService
+2024-11-08 14:49:13 - Metrics scheduler closed
+2024-11-08 14:49:13 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 14:49:13 - Metrics reporters closed
+2024-11-08 14:49:13 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-08 14:49:13 - ygpt-zhdh: Consumer stopped
+2024-11-08 14:49:13 - Shutting down ExecutorService 'taskScheduler'
+2024-11-08 14:49:13 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-08 14:49:13 - HikariPool-1 - Shutdown initiated...
+2024-11-08 14:49:13 - HikariPool-1 - Shutdown completed.
+2024-11-08 15:28:45 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 16564 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-08 15:28:45 - No active profile set, falling back to default profiles: default
+2024-11-08 15:28:46 - Tomcat initialized with port(s): 8080 (http)
+2024-11-08 15:28:46 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 15:28:46 - Starting service [Tomcat]
+2024-11-08 15:28:46 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-08 15:28:46 - Initializing Spring embedded WebApplicationContext
+2024-11-08 15:28:46 - Root WebApplicationContext: initialization completed in 1523 ms
+2024-11-08 15:28:48 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-08 15:28:48 - Initializing ExecutorService 'taskScheduler'
+2024-11-08 15:28:48 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 15:28:48 - Kafka version: 2.7.1
+2024-11-08 15:28:48 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 15:28:48 - Kafka startTimeMs: 1731050928904
+2024-11-08 15:28:48 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_Smoke
+2024-11-08 15:28:48 - Initializing ExecutorService
+2024-11-08 15:28:48 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 15:28:48 - Kafka version: 2.7.1
+2024-11-08 15:28:48 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 15:28:48 - Kafka startTimeMs: 1731050928933
+2024-11-08 15:28:48 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-08 15:28:48 - Initializing ExecutorService
+2024-11-08 15:28:48 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 15:28:48 - Kafka version: 2.7.1
+2024-11-08 15:28:48 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 15:28:48 - Kafka startTimeMs: 1731050928954
+2024-11-08 15:28:48 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_HTSensor
+2024-11-08 15:28:48 - Initializing ExecutorService
+2024-11-08 15:28:48 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 15:28:49 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 15:28:49 - Started AviationShowApplication in 4.677 seconds (JVM running for 5.952)
+2024-11-08 15:29:21 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 15:29:21 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 15:29:21 - Completed initialization in 17 ms
+2024-11-08 15:29:21 - 发送消息：{"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-08 15:29:21 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.164.129:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = true
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-11-08 15:29:21 - Kafka version: 2.7.1
+2024-11-08 15:29:21 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 15:29:21 - Kafka startTimeMs: 1731050961311
+2024-11-08 15:30:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 15:30:00 - HikariPool-1 - Starting...
+2024-11-08 15:30:00 - HikariPool-1 - Start completed.
+2024-11-08 15:30:00 - 同步电流实时数据成功！
+2024-11-08 15:30:11 - 发送消息：{"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-08 15:31:16 - 发送消息：{"data":"{\"tgHumidity\":50.800000,\"tgTemperature\":22.400000}","properties":{"deviceIdentifier":"503D2401C03048_HTSensor_1","eventTime":"20241108T111638Z","gatewayIdentifier":"503D2401C03048","serviceId":"serviceHTemperatureS","deviceId":"D37871147911fsEef","gatewayId":"503D2401C03048"}}
+2024-11-08 15:32:18 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 15:32:18 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 15:32:18 - Shutting down ExecutorService
+2024-11-08 15:32:18 - Shutting down ExecutorService
+2024-11-08 15:32:18 - Metrics scheduler closed
+2024-11-08 15:32:18 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 15:32:18 - Metrics scheduler closed
+2024-11-08 15:32:18 - Metrics reporters closed
+2024-11-08 15:32:18 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 15:32:18 - Metrics reporters closed
+2024-11-08 15:32:18 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 15:32:18 - Shutting down ExecutorService
+2024-11-08 15:32:18 - Metrics scheduler closed
+2024-11-08 15:32:18 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 15:32:18 - Metrics reporters closed
+2024-11-08 15:32:18 - App info kafka.consumer for consumer-ygpt-zhdh-2 unregistered
+2024-11-08 15:32:18 - ygpt-zhdh: Consumer stopped
+2024-11-08 15:32:18 - App info kafka.consumer for consumer-ygpt-zhdh-3 unregistered
+2024-11-08 15:32:18 - ygpt-zhdh: Consumer stopped
+2024-11-08 15:32:18 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-08 15:32:18 - ygpt-zhdh: Consumer stopped
+2024-11-08 15:32:18 - Shutting down ExecutorService 'taskScheduler'
+2024-11-08 15:32:18 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-08 15:32:18 - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-11-08 15:32:18 - Metrics scheduler closed
+2024-11-08 15:32:18 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 15:32:18 - Metrics reporters closed
+2024-11-08 15:32:18 - App info kafka.producer for producer-1 unregistered
+2024-11-08 15:32:18 - HikariPool-1 - Shutdown initiated...
+2024-11-08 15:32:18 - HikariPool-1 - Shutdown completed.
+2024-11-08 16:01:38 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 17608 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-08 16:01:38 - No active profile set, falling back to default profiles: default
+2024-11-08 16:01:39 - Tomcat initialized with port(s): 8080 (http)
+2024-11-08 16:01:39 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 16:01:39 - Starting service [Tomcat]
+2024-11-08 16:01:39 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-08 16:01:39 - Initializing Spring embedded WebApplicationContext
+2024-11-08 16:01:39 - Root WebApplicationContext: initialization completed in 1484 ms
+2024-11-08 16:01:41 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-08 16:01:41 - Initializing ExecutorService 'taskScheduler'
+2024-11-08 16:01:41 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 16:01:41 - Kafka version: 2.7.1
+2024-11-08 16:01:41 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 16:01:41 - Kafka startTimeMs: 1731052901575
+2024-11-08 16:01:41 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-08 16:01:41 - Initializing ExecutorService
+2024-11-08 16:01:41 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 16:01:41 - Kafka version: 2.7.1
+2024-11-08 16:01:41 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 16:01:41 - Kafka startTimeMs: 1731052901605
+2024-11-08 16:01:41 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_Smoke
+2024-11-08 16:01:41 - Initializing ExecutorService
+2024-11-08 16:01:41 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 16:01:41 - Kafka version: 2.7.1
+2024-11-08 16:01:41 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 16:01:41 - Kafka startTimeMs: 1731052901620
+2024-11-08 16:01:41 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_HTSensor
+2024-11-08 16:01:41 - Initializing ExecutorService
+2024-11-08 16:01:41 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 16:01:41 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 16:01:41 - Started AviationShowApplication in 4.451 seconds (JVM running for 5.65)
+2024-11-08 16:02:12 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 16:02:12 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 16:02:12 - Completed initialization in 13 ms
+2024-11-08 16:02:12 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-08 16:02:12 - HikariPool-1 - Starting...
+2024-11-08 16:02:13 - HikariPool-1 - Start completed.
+2024-11-08 16:02:42 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-08 16:15:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 16:15:00 - 同步电流实时数据成功！
+2024-11-08 16:30:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 16:30:00 - 同步电流实时数据成功！
+2024-11-08 16:40:29 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 16:40:29 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 16:40:29 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 16:40:29 - Shutting down ExecutorService
+2024-11-08 16:40:29 - Shutting down ExecutorService
+2024-11-08 16:40:29 - Shutting down ExecutorService
+2024-11-08 16:40:29 - Metrics scheduler closed
+2024-11-08 16:40:29 - Metrics scheduler closed
+2024-11-08 16:40:29 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 16:40:29 - Metrics scheduler closed
+2024-11-08 16:40:29 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 16:40:29 - Metrics reporters closed
+2024-11-08 16:40:29 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 16:40:29 - Metrics reporters closed
+2024-11-08 16:40:29 - Metrics reporters closed
+2024-11-08 16:40:29 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-08 16:40:29 - App info kafka.consumer for consumer-ygpt-zhdh-3 unregistered
+2024-11-08 16:40:29 - ygpt-zhdh: Consumer stopped
+2024-11-08 16:40:29 - App info kafka.consumer for consumer-ygpt-zhdh-2 unregistered
+2024-11-08 16:40:29 - ygpt-zhdh: Consumer stopped
+2024-11-08 16:40:29 - ygpt-zhdh: Consumer stopped
+2024-11-08 16:40:29 - Shutting down ExecutorService 'taskScheduler'
+2024-11-08 16:40:29 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-08 16:40:29 - HikariPool-1 - Shutdown initiated...
+2024-11-08 16:40:29 - HikariPool-1 - Shutdown completed.
+2024-11-08 17:08:04 - Starting AviationShowApplication on DESKTOP-NM1RA33 with PID 17528 (F:\ideaProjects\blk\aviation_show\target\classes started by Administrator in F:\ideaProjects\blk\aviation_show)
+2024-11-08 17:08:04 - No active profile set, falling back to default profiles: default
+2024-11-08 17:08:05 - Tomcat initialized with port(s): 8080 (http)
+2024-11-08 17:08:05 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 17:08:05 - Starting service [Tomcat]
+2024-11-08 17:08:05 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2024-11-08 17:08:05 - Initializing Spring embedded WebApplicationContext
+2024-11-08 17:08:05 - Root WebApplicationContext: initialization completed in 1510 ms
+2024-11-08 17:08:07 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-08 17:08:07 - Initializing ExecutorService 'taskScheduler'
+2024-11-08 17:08:07 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 17:08:07 - Kafka version: 2.7.1
+2024-11-08 17:08:07 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 17:08:07 - Kafka startTimeMs: 1731056887700
+2024-11-08 17:08:07 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_HTSensor
+2024-11-08 17:08:07 - Initializing ExecutorService
+2024-11-08 17:08:07 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 17:08:07 - Kafka version: 2.7.1
+2024-11-08 17:08:07 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 17:08:07 - Kafka startTimeMs: 1731056887732
+2024-11-08 17:08:07 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_GD_EnvMonitor_DGRI_Smoke
+2024-11-08 17:08:07 - Initializing ExecutorService
+2024-11-08 17:08:07 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.164.129:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-ygpt-zhdh-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ygpt-zhdh
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-11-08 17:08:07 - Kafka version: 2.7.1
+2024-11-08 17:08:07 - Kafka commitId: 61dbce85d0d41457
+2024-11-08 17:08:07 - Kafka startTimeMs: 1731056887746
+2024-11-08 17:08:07 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Subscribed to topic(s): iot_00_04_pd_datas_syy_guangdong_EnvMonitor_DGRI_AICamera_V2.0
+2024-11-08 17:08:07 - Initializing ExecutorService
+2024-11-08 17:08:07 - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 17:08:07 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 17:08:07 - Started AviationShowApplication in 4.589 seconds (JVM running for 5.82)
+2024-11-08 17:08:14 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 17:08:14 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 17:08:14 - Completed initialization in 12 ms
+2024-11-08 17:08:14 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-08 17:08:18 - HikariPool-1 - Starting...
+2024-11-08 17:08:18 - HikariPool-1 - Start completed.
+2024-11-08 17:08:50 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-08 17:09:09 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-08 17:10:00 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-08 17:14:23 - 开始调用接口/electricOperationData/getByStationName------->>>>>> 请求参数: 1
+2024-11-08 17:15:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 17:15:00 - 同步电流实时数据成功！
+2024-11-08 17:30:00 - 开始同步电流数据------>>>>>>>>
+2024-11-08 17:30:00 - 同步电流实时数据成功！
+2024-11-08 17:42:48 - [Consumer clientId=consumer-ygpt-zhdh-1, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 17:42:48 - [Consumer clientId=consumer-ygpt-zhdh-2, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 17:42:48 - Shutting down ExecutorService
+2024-11-08 17:42:48 - [Consumer clientId=consumer-ygpt-zhdh-3, groupId=ygpt-zhdh] Unsubscribed all topics or patterns and assigned partitions
+2024-11-08 17:42:48 - Shutting down ExecutorService
+2024-11-08 17:42:48 - Shutting down ExecutorService
+2024-11-08 17:42:48 - Metrics scheduler closed
+2024-11-08 17:42:48 - Metrics scheduler closed
+2024-11-08 17:42:48 - Metrics scheduler closed
+2024-11-08 17:42:48 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 17:42:48 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 17:42:48 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-08 17:42:48 - Metrics reporters closed
+2024-11-08 17:42:48 - Metrics reporters closed
+2024-11-08 17:42:48 - Metrics reporters closed
+2024-11-08 17:42:48 - App info kafka.consumer for consumer-ygpt-zhdh-1 unregistered
+2024-11-08 17:42:48 - App info kafka.consumer for consumer-ygpt-zhdh-3 unregistered
+2024-11-08 17:42:48 - ygpt-zhdh: Consumer stopped
+2024-11-08 17:42:48 - ygpt-zhdh: Consumer stopped
+2024-11-08 17:42:48 - App info kafka.consumer for consumer-ygpt-zhdh-2 unregistered
+2024-11-08 17:42:48 - ygpt-zhdh: Consumer stopped
+2024-11-08 17:42:48 - Shutting down ExecutorService 'taskScheduler'
+2024-11-08 17:42:48 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-08 17:42:48 - HikariPool-1 - Shutdown initiated...
+2024-11-08 17:42:48 - HikariPool-1 - Shutdown completed.
